@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="" content="">
+	<meta description="" content="">
+	<meta viewport="" content="width=device-width, initial-scale=1 user-scalable=no">
+	<meta keywords="" content="">
+	<title>SB Serviços</title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/service.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	
+	
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">-->
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<!-- <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script> -->
+
+</head>
+<body>
+	<header class="header" id="header">
+	<div class="container">	
+	<h1 class="animated fadeInDown delay-7s">Seviços Residenciais</h1>
+		<ul class="animated fadeInUp delay-1s">
+			<li>Descubra nossos serviços para arrumar sua casa. </li> 
+		</ul>
+	</div>
+
+</header>
+
+<!--main-nav-start-->
+<nav id="menuHeader">
+	<ul  class="main-nav">
+		<li><a href="index.html"> Inicio </a></li>
+		<li><a href="service.html">Informática</a></li>
+		<li><a href="servicos-residenciais.html">Residenciais</a></li>
+		<li><a href="#"> <img src="img/small-logo.png" alt="logo"> </a></li>
+		<li><a href="#sobre">Quem Sou</a></li>		
+		<li><a href="#clientes"> Clientes </a></li>			
+		<li><a href="#contato"> Contato </a></li>
+	</ul>
+
+<a class="mostra-esconde-menu" href="javascript:void(0);"> </a>
+
+</nav>
+
+<div class="section-service">
+	<div class="container">
+		<div class="row">
+			<div class="col sm-4 col-md-3 zoom-mais">
+				<div class="thumbnail">
+					<img src="img/ar-condicionado.jpg" alt="ar condicionado">
+						<div class="caption">
+							<h3>Ar condicionado</h3>
+							<p>
+								<ul>
+									<li>Instalação</li>
+									<li>Manutenção</li>
+									<li>Reparo</li>
+									<li>Projeto para verificar a melhor localização para o seu ar condicionado</li>
+								</ul>
+							</p>
+
+							<a href="#contact" class="botao">Solicite seu orçamento!</a>
+							
+
+						</div>
+				</div>
+			</div>
+				<div class="col sm-4 col-md-3 zoom-mais">
+					<div class="thumbnail">
+						<img src="img/reparo.jpg" alt="ferramentas">
+							<div class="caption">
+								<h3>Pequenos Reparos</h3>
+								<p>
+									<ul>
+										<li>TV</li>
+										<li>Máquina de lavar</li>										
+										<li>Móvel</li>
+										<li>Porta</li>
+										
+									</ul>	
+								</p>
+
+								<a href="#contact" class="botao">Solicite seu orçamento!</a>
+
+								
+							</div>
+					</div>
+				</div>
+
+				<div class="col sm-4 col-md-3 zoom-mais">
+					<div class="thumbnail">
+						<img src="img/eletrica.jpg" alt="lampada">
+							<div class="caption">
+								<h3>Serviços Elétricos</h3>
+									<ul>
+										<li>Chuveiro queimado</li>
+										<li>Tomada sem funcionar</li>
+										<li>Interruptor com defeito</li>
+									</ul>
+
+								<a href="#contact" class="botao">Solicite seu orçamento!</a>
+
+							</div>
+					</div>
+				</div>
+
+				<div class="col sm-4 col-md-3 zoom-mais">
+					<div class="thumbnail">
+						<img src="img/hidraulico.jpg" alt="torneira">
+							<div class="caption">
+								<h3>Serviços Hidráulicos</h3>
+							<p>
+								<ul>
+									<li>Vazamento</li>
+									<li>Troca de torneira</li>
+									<li>Reparo em canos</li>			
+								</ul>
+							</p>
+
+								<a href="#contact" class="botao">Solicite seu orçamento!</a>
+
+								
+							</div>
+					</div>
+				</div>
+
+		</div>
+	</div>	
+</div>
+
+<div class="container-full" id="img-contact">
+<div class="container">
+	<section class="main-contact" id="contact">
+			<div class="col-lg-5 col-sm-5">
+				<h1>CONTATO</h1>
+				<p>Sinta - se a vontade para entrar em contato conosco!</p>
+				<form method="post" action="sendmail.php">
+				<div class="form-group">
+					<label for="Nome">Nome: </label>
+					<input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" required>
+				</div>
+
+				<div class="form-group">
+					<label for="Email">E- mail: </label>
+					<input type="email" class="form-control" name="email" id="email" placeholder="Digite o seu email de contato" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="Telefone">Telefone: </label>
+					<input type="tel" class="form-control" name="telefone" id="telefone" placeholder="(xx) 00000 0000" required>
+				</div>
+
+				<div class="form-group">
+					<label for="Assunto">Assunto: </label>
+					<input type="text" class="form-control" name="assunto" id="assunto" placeholder="Ex.: Orçamento" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="Mensagem">Mensagem: </label><p>
+					<textarea name="mensagem" id="Mensagem" cols="64" rows="6" required>
+						
+					</textarea>
+				</div>
+
+				<button type="submit"  name="Enviar" value="Enviar" class="btn btn-primary">Enviar</button>
+			</form>
+			
+		</div>
+<br><br><br>
+			<div class="row">
+						<div class="col-lg-5 col-sm-5">
+							<div class="box-contact endereco">
+								<h3><i class="icon-map-marker"> ENDEREÇO:</i></h3>
+								<span>Epitacio Pessoa, nº 13,Box 9/10 <br> SANTOS -SP</span>
+							</div>
+							<div class="box-contact telefone">
+									<h3><i class="fa-phone"> TELEFONE:	</i></h3>
+									<span>(13) 3286-3661 <br> (13) 997406-3994</span>
+							</div>
+
+							<div class="box-contact email">
+									<h3><i class="fa-pencil"> E-MAIL:</i></h3>
+									<span>example@example.com.br</span>
+							</div>
+							<div class="box-contact hour">
+									<h3><i class="fa-clock-o"> HORARIO: </i></h3>
+									<span>Segunda á Sabado das 10:00 ás 20:00 </span>
+							</div>
+							<ul class="social-link"> <!-- rede social --> 
+			                	<li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
+			                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
+			                   	<li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
+			                </ul>
+			                </div>
+			                <div class="col-lg-4 col-md-4 col-sm-4  text-right animated fadeInUp delay-02s" >
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.7098139471195!2d-46.32587514958553!3d-23.970699482644402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03aa995001fd%3A0x39308da945e07a91!2sAv.+Dr.+Epit%C3%A1cio+Pessoa%2C+13+-+Boqueir%C3%A3o%2C+Santos+-+SP%2C+11045-301!5e0!3m2!1spt-BR!2sbr!4v1479563149295" width="450" height="250" frameborder="0" style="border:0" allowfullscreen>
+								
+							</iframe>
+	</div>
+							</div>
+						
+						</div>
+
+						</div>
+
+			</div>
+	</section>
+</div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#home">
+        <img src="img/mascote.png" alt="Mascote SB Serviços"></a></div>
+        <span class="copyright">Copyright © 2016 | SB Serviços</span>
+    </div>
+</footer>
+
+
+
+
+<script>
+		$(function(){   
+			var nav = $('#menuHeader');   
+			$(window).scroll(function () { 
+				if ($(this).scrollTop() > 940) { 
+					nav.addClass("menu-fixo");
+
+				} else { 
+					nav.removeClass("menu-fixo"); 
+				} 
+			});  
+		});
+</script>
+
+</body>
+</html>
